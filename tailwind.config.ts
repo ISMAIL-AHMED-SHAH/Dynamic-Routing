@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'sunset': "url('/images/sunset.webp')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
